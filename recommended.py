@@ -8,7 +8,7 @@ def recommended_songs_id(song_id_list):
     model    = pickle.load(open(filename, 'rb'))
     df_recommended = pd.DataFrame()
     flag = 0
-    
+    N = 857579 
     # Identyfiying the recommendation based on Individual Songs and then summing from all the options
     for song_id in song_id_list:
         similars = model.similar_items(song_id, N)
