@@ -4,7 +4,7 @@ import pandas as pd
 def recommended_songs_id(song_id_list):
     
     # Load the model from disk
-    filename = '../model/finalized_model.sav'
+    filename = './model/finalized_model.sav'
     model    = pickle.load(open(filename, 'rb'))
     df_recommended = pd.DataFrame()
     flag = 0
