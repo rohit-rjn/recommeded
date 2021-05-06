@@ -1,4 +1,4 @@
 pandas
 typing
 fastapi 
-gunicorn = 20.0.4
+gunicorn == 20.0.4
