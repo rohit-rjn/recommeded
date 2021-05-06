@@ -2,3 +2,4 @@ pandas
 typing
 fastapi
 uvicorn
+gunicorn
