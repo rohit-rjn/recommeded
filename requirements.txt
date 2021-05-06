@@ -1,4 +1,4 @@
 pandas
 typing
 fastapi
-gunicorn
+uvicorn
